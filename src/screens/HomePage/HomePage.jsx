@@ -3,9 +3,10 @@ import { useCustomContext } from '../../ContextManager/ContextProvider'
 import { ProductCard } from '../../components'
 
 const HomePage = () => {
+
     const {products} = useCustomContext()
     const [searchProduct, setSearchProduct] = useState('')
-    const [max, setMax] = useState(1000000)
+    const [max, setMax] = useState(100000)
     const [min, setMin] = useState(0)
     const [currentProducts, setCurrentProducts] = useState(products)
 
@@ -16,9 +17,9 @@ const HomePage = () => {
     }, [searchProduct, max, min])
   return (
     <div>
-        <h1>Lista de productos</h1>
+        <h1>Nuestros Productos</h1>
 
-        <input placeholder='busca el nombre del producto' value={searchProduct} onChange={(e) => setSearchProduct(e.target.value)}/>
+        <input placeholder='busca el producto' value={searchProduct} onChange={(e) => setSearchProduct(e.target.value)}/>
         <div>
           <h2>Precio</h2>
           <div>

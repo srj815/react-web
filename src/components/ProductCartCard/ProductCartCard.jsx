@@ -7,7 +7,6 @@ const ProductCartCard = ({producto}) => {
         <h3>Precio: {producto.precio}</h3>
         <p>Descripcion: {producto.descripcion}</p>
         <p>Cantidad: {producto.quantity}</p>
-        <hr />
     </div>
   )
 }

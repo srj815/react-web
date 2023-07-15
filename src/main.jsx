@@ -8,9 +8,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 <ContextProvider>
 <BrowserRouter>
-  
+
 <App />
-    
+
 </BrowserRouter>
 </ContextProvider>
 

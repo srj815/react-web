@@ -11,7 +11,6 @@ const CartPage = () => {
 
   return (
     <div>
-        CartPage
         <div>
             {cart.map(product =>(
                 <ProductCard producto={product} key={product.id}/>
@@ -33,7 +32,7 @@ const CartPage = () => {
 
         </>
         :
-        <h1>No has comprado nada aun</h1>
+        <h1>No hay nada en tu carrito</h1>
         }
     </div>
   )

@@ -2,16 +2,14 @@ import React, { useState } from 'react'
 import { useCustomContext } from '../../ContextManager/ContextProvider'
 
 const Counter = ({initialValue, stock, id}) => {
-    const {addProductCart } = useCustomContext()
+
+    const {addProductCart} = useCustomContext()
     const [quantity, setQuantity] = useState(initialValue)
     const onClickAddProduct = () =>{
         addProductCart(id, quantity)
         Swal.fire(
-            'Good job!',
-            'You clicked the button!',
-            'success'
+            'Agregado al carrito!',
         )
-        console.log('necesito ejecutarme con urgencia')
     }
     return (
         <>

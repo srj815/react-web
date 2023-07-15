@@ -15,7 +15,7 @@ return (
     <div>
         <h1>{productDetail.nombre}</h1>
         <h2>{productDetail.precio}</h2>
-        <p>Descripcion: {productDetail.descripcion}</p>
+        <p>{productDetail.descripcion}</p>
         <div><button onClick={() => addProductCart(productDetail.id)}>Comprar</button></div>
 
         {
@@ -25,7 +25,6 @@ return (
         : 
         <Counter initialValue={1} stock={productDetail.stock} id={productDetail.id}/>
         }
-
     </div>
 )
 }
