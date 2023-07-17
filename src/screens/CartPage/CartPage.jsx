@@ -7,16 +7,9 @@ const CartPage = () => {
 
     const {cart, getTotal} = useCustomContext()
     console.log(getTotal())
-    console.log(cart)
 
   return (
     <div>
-        <div>
-            {cart.map(product =>(
-                <ProductCard producto={product} key={product.id}/>
-            ))}
-        </div>
-
         {cart.length > 0 
         ?
         <>

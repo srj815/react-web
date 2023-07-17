@@ -196,11 +196,10 @@ const ContextProvider = ({children}) => {
 
 
 
-
-
     const getProductById = (id) =>{
         return products.find(producto => producto.id === Number(id))
     }
+
     const getProductCartById =(id) => {
         return cart.find(producto => producto.id === Number(id))
     }
@@ -208,7 +207,6 @@ const ContextProvider = ({children}) => {
 
 
 
-    /* El estado del array de objetos del carrito */
     const [cart, setCart] = useState([])
 
 
@@ -239,7 +237,7 @@ const ContextProvider = ({children}) => {
 
 
     return (
-        <Context.Provider value={{ products, getProductById, cart, addProductCart, isInCart, getProductCartById, getTotal}}>
+        <Context.Provider value={{products, getProductById, cart, addProductCart, isInCart, getProductCartById, getTotal}}>
             {children}
         </Context.Provider>
     )

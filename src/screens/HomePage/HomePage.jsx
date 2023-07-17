@@ -15,6 +15,7 @@ const HomePage = () => {
         producto => producto.nombre.toLowerCase().includes(searchProduct.toLowerCase()) && producto.precio >= min && producto.precio <= max
       ))
     }, [searchProduct, max, min])
+    
   return (
     <div>
         <h1>Nuestros Productos</h1>
@@ -28,10 +29,7 @@ const HomePage = () => {
           </div>
         </div>
         <div>
-            {products.map(producto  => (
-            <ProductCard producto={producto} key={producto.id}/>
-            ))}
-            {
+              {
               currentProducts.length > 0 
               ?
               currentProducts.map(producto  => (
