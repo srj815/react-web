@@ -9,7 +9,7 @@ const ContextProvider = ({children}) => {
     const products =[
         {
             nombre: 'Mancuerna',
-            imagen: '../assets/1.png',
+            imagen: '../../public/1.png',
             precio: 7000,
             id:1,
             stock: 20,
@@ -17,7 +17,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Banda Elastica',
-            imagen: '../assets/2.png',
+            imagen: '../../public/2.png',
             precio: 1400,
             id:2,
             stock: 15,
@@ -25,7 +25,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Pesa Rusa de Fundicion',
-            imagen: '../assets/3.png',
+            imagen: '../../public/3.png',
             precio: 4000,
             id:3,
             stock: 8,
@@ -33,7 +33,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Colchoneta de Alta Densidad',
-            imagen: '../assets/4.png',
+            imagen: '../../public/4.png',
             precio: 2000,
             id:4,
             stock: 50,
@@ -41,7 +41,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Disco con Agarre de PVC',
-            imagen: '../assets/5.png',
+            imagen: '../../public/5.png',
             precio: 4000,
             id:5,
             stock: 15,
@@ -49,7 +49,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Mancuerna con rosca',
-            imagen: '../assets/6.png',
+            imagen: '../../public/6.png',
             precio: 3000,
             id:6,
             stock: 100,
@@ -57,7 +57,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Mancuerna de fundicion',
-            imagen: '../assets/7.png',
+            imagen: '../../public/7.png',
             precio: 1000,
             id:7,
             stock: 80,
@@ -65,7 +65,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Disco de fundicion',
-            imagen: '../assets/8.png',
+            imagen: '../../public/8.png',
             precio: 2000,
             id:8,
             stock: 200,
@@ -73,7 +73,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Pesa Rusa de PVC',
-            imagen: '../assets/9.png',
+            imagen: '../../public/9.png',
             precio: 3000,
             id:9,
             stock: 20,
@@ -81,7 +81,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Barra Dominada de Pared',
-            imagen: '../assets/10.png',
+            imagen: '../../public/10.png',
             precio: 10000,
             id:10,
             stock: 8,
@@ -89,7 +89,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Proteina Mass Gainer',
-            imagen: '../assets/11.png',
+            imagen: '../../public/11.png',
             precio: 5000,
             id:11,
             stock: 10,
@@ -97,7 +97,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Barra con Disco',
-            imagen: '../assets/12.png',
+            imagen: '../../public/12.png',
             precio: 20000,
             id:12,
             stock: 15,
@@ -105,15 +105,15 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Rueda abdominal',
-            imagen: '../assets/13.png',
+            imagen: '../../public/13.png',
             precio: 1600,
             id:13,
             stock: 45,
             descripcion: "Rueda para hacer abdominales"
         },
         {
-            nombre: 'Ula Ula',
-            imagen: '../assets/14.png',
+            nombre: 'Aro Hula Hula',
+            imagen: '../../public/14.png',
             precio: 350,
             id:14,
             stock: 300,
@@ -121,7 +121,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Protector Bucal',
-            imagen: '../assets/15.png',
+            imagen: '../../public/15.png',
             precio: 600,
             id:15,
             stock: 677,
@@ -129,7 +129,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Pelota de Yoga',
-            imagen: '../assets/16.png',
+            imagen: '../../public/16.png',
             precio: 2000,
             id:16,
             stock: 21,
@@ -137,7 +137,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Ladrillo de Yoga',
-            imagen: '../assets/17.png',
+            imagen: '../../public/17.png',
             precio: 1000,
             id:17,
             stock: 8,
@@ -145,7 +145,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Guantes de Boxeo',
-            imagen: '../assets/18.png',
+            imagen: '../../public/18.png',
             precio: 2500,
             id:18,
             stock: 79,
@@ -153,7 +153,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Soga con Mango de Metal',
-            imagen: '../assets/19.png',
+            imagen: '../../public/19.png',
             precio: 1000,
             id:19,
             stock: 32,
@@ -161,7 +161,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Guantes de MMA',
-            imagen: '../assets/20.png',
+            imagen: '../../public/20.png',
             precio: 2500,
             id:20,
             stock: 40,
@@ -169,7 +169,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Vendas de Colores',
-            imagen: '../assets/21.png',
+            imagen: '../../public/21.png',
             precio: 1700,
             id:21,
             stock: 280,
@@ -177,7 +177,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Medicine Ball',
-            imagen: '../assets/22.png',
+            imagen: '../../public/22.png',
             precio: 4500,
             id:22,
             stock: 12,
@@ -185,7 +185,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Vaso Shaker',
-            imagen: '../assets/23.png',
+            imagen: '../../public/23.png',
             precio: 800,
             id:23,
             stock: 100,

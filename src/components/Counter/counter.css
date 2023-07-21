@@ -1,0 +1,20 @@
+.buttonCounter{
+    border: none;
+    border-radius: 50%;
+    width: 1.5rem;
+    background-color: var(--color-font);
+    color: var(--color-background);
+    cursor: pointer;
+}
+
+.counter{
+    display: flex;
+    gap: 1rem;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: var(--color-font);
+}

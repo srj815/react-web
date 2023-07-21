@@ -1,0 +1,10 @@
+.back2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--background-total);
+    padding: 3rem;
+}
+

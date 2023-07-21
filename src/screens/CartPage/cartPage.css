@@ -1,0 +1,20 @@
+.back3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--background-total);
+}
+
+.pepitoDeNuevo{
+    margin-top: 2rem;
+}
+
+.back2 span{
+    font-weight: 600;
+}
+
+.back2 h1{
+    font-size: 1.3rem;
+}

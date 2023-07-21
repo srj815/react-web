@@ -1,13 +1,14 @@
 import React from 'react'
+import './productCartCard.css'
 
 const ProductCartCard = ({producto}) => {
   return (
-    <div >
+    <div className='productCard'>
         <h2>{producto.nombre}</h2>
         <img src={producto.imagen} alt="Producto" />
         <h3>Precio: {producto.precio}</h3>
-        <p>Descripcion: {producto.descripcion}</p>
-        <p>Cantidad: {producto.quantity}</p>
+        <p>{producto.descripcion}</p>
+        <p className='pepito'><span>Cantidad:</span> {producto.quantity}</p>
     </div>
   )
 }
