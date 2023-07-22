@@ -206,7 +206,7 @@
 
 
 .flip-square::after {
-    animation: flip-square 1s ease infinite;
+    animation: flip-square 2.5s ease infinite;
     background-color: var(--color-lastF);
     content: '';
     display: block;

@@ -9,7 +9,7 @@ const ContextProvider = ({children}) => {
     const products =[
         {
             nombre: 'Mancuerna',
-            imagen: 'https://drive.google.com/file/d/1cJGPF_fEiwP7ZM-HsAx55jgbtWYYHgJP/view?usp=drive_link',
+            imagen: 'https://drive.google.com/file/d/1cJGPF_fEiwP7ZM-HsAx55jgbtWYYHgJP/view',
             precio: 7000,
             id:1,
             stock: 20,
@@ -17,7 +17,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Banda Elastica',
-            imagen: '../assets/2.png',
+            imagen: '../../public/2.png',
             precio: 1400,
             id:2,
             stock: 15,
