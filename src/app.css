@@ -196,7 +196,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .5s;
+/*     transition: .5s; */
 }
 
 .divPadre--hidden{
@@ -206,12 +206,12 @@
 
 
 .flip-square::after {
-    animation: flip-square 0.9s ease infinite;
+    animation: flip-square 1s ease infinite;
     background-color: var(--color-lastF);
     content: '';
     display: block;
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     }
     
     @keyframes flip-square {

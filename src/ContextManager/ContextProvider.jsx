@@ -17,7 +17,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Banda Elastica',
-            imagen: '../../public/2.png',
+            imagen: '../assets/2.png',
             precio: 1400,
             id:2,
             stock: 15,

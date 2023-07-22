@@ -26,7 +26,7 @@ function App() {
         <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
 
-     <div className='divPadre'>
+      <div className='divPadre'>
           <span class="flip-square"></span>
       </div>
 
