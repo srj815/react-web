@@ -66,3 +66,31 @@ input:not(:placeholder-shown) ~ label{
     background-color: var(--color-font);
     color: var(--color-background);
 }
+
+
+
+
+@media screen and (min-width: 700px){
+
+    .formularioUsuario{
+        width: 50vw;
+        gap: 3vh;
+        margin: 0 auto;
+        margin-top: 10vh;
+        margin-bottom: 15vh;
+        padding: 1rem;
+    }
+
+    .formularioUsuario h2{
+        font-size: 0.9rem;
+    }
+
+    .inputBox label{
+        font-size: 0.5rem;
+    }
+
+    .formularioUsuario button{
+        font-size: 0.5rem;
+    }
+
+}

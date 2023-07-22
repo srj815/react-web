@@ -24,7 +24,7 @@ const HomePage = () => {
     
     <div className='back'>
         <div className='father'>
-          <input className='inputSearch' placeholder='Busca el producto' value={searchProduct} onChange={(e) => setSearchProduct(e.target.value)}/>
+          <input className='inputSearch' placeholder='Busca tu producto' value={searchProduct} onChange={(e) => setSearchProduct(e.target.value)}/>
           <div className='son'>
             <i class="bi bi-search"></i>
           </div>

@@ -56,6 +56,8 @@
 .footerBar{
     background-color: var(--color-footer);
     height: auto;
+    position: sticky;
+    z-index: 9990;
 }
 
 .zeroF{
@@ -177,4 +179,238 @@
     text-decoration: none;
     color: #4DC346;
     background-color: var(--color-background);
+}
+
+
+
+
+
+
+.divPadre{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.359);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2.5s;
+}
+
+.divPadre--hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.flip-square::after {
+    animation: flip-square 0.9s ease infinite;
+    background-color: var(--color-lastF);
+    content: '';
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    }
+    
+    @keyframes flip-square {
+    0% {
+
+                transform: perspective(50px) rotate(45deg) rotateX(0deg) rotateY(0deg); }
+    50% {
+
+                transform: perspective(50px) rotate(45deg) rotateX(-180deg) rotateY(0deg); }
+    100% {
+
+                transform: perspective(50px) rotate(45deg) rotateX(-180deg) rotateY(-180deg); } }
+
+
+
+
+@media screen and (min-width: 500px){
+    html{
+        font-size: 25px;
+        }
+}
+
+@media screen and (min-width: 700px){
+
+    .navBar{
+        padding: 0.5rem 0.7rem;
+    }
+
+    .navLink{
+        display: flex;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .boxLink .navLink{
+        padding: 0.1rem;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .navLink i{
+        font-size: 0.6rem;
+    }
+    .navLink span{
+        display:grid;
+        font-size: 0.5rem;
+    }
+
+    .zeroF h2{
+        font-size: 0.5rem;
+    }
+
+    .zeroF .navLink2{
+        font-size: 0.4rem;
+    }
+
+    .firstF h2{
+        font-size: 0.5rem;
+    }
+    
+    .firstF-imgs .bi{
+        height: 0.1rem;
+        width: 0.1rem;
+        padding: 0.6rem;
+        cursor: pointer;
+        font-size: 0.5rem;
+    }
+
+    .lpm{
+        display: flex;
+    }
+
+    .lrpm{
+        display: flex;
+    }
+
+    .lrpmqlp{
+        display: flex;
+    }
+
+    .secondF h2{
+        font-size: 0.5rem;
+    }
+
+    .secondF-imgs{
+        gap: 0.2rem;
+    }
+
+    .secondF-imgs img{
+        width: 0.8rem;
+    }
+
+    .thirdF h2{
+        font-size: 0.5rem;
+    }
+
+    .thirdF img{
+        width: 0.8rem;
+        margin: 0.5rem;
+    }
+
+    .firstF{
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 1400px){
+
+    .navBar{
+        padding: 1rem 3rem;
+    }
+
+    .navLink{
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        border-radius: 10px;
+        transition: 0.7s;
+    }
+
+    .boxLink .navLink{
+        padding: 0.2rem 0.5rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .navLink i{
+        font-size: 1.3rem;
+    }
+    .navLink span{
+        font-size: 0.7rem;
+    }
+
+    .boxLink .navLink:hover{
+        background-color: rgba(0, 0, 0, 0.084);
+        color: var(--color-background);
+    }
+
+    .btn-wsp{
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.8rem;
+    }
+    
+    .zeroF h2{
+        font-size: 1rem;
+    }
+
+    .zeroF .navLink2{
+        font-size: 0.6rem;
+    }
+
+    .firstF h2{
+        font-size: 1rem;
+    }
+    
+    .firstF-imgs .bi{
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .secondF h2{
+        font-size: 1rem;
+    }
+
+    .secondF-imgs{
+        gap: 1rem;
+    }
+
+    .secondF-imgs img{
+        width: 2rem;
+    }
+
+    .thirdF h2{
+        font-size: 1rem;
+    }
+
+    .thirdF img{
+        width: 2.4rem;
+    }
+
+    .zeroF{
+        margin-right: 5rem;
+    }
+
+    .lpm{
+        display: flex;
+        margin-right: 5rem;
+        margin-left: 2rem;
+    }
+
+    .lrpm{
+        display: flex;
+        margin-right: 5rem;
+    }
+
+    .lrpmqlp{
+        display: flex;
+    }
+
 }

@@ -18,3 +18,56 @@
 div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     background-color: var(--color-font);
 }
+
+
+
+
+@media screen and (min-width: 700px){
+
+
+    .buttonCounter{
+        border: none;
+        border-radius: 50%;
+        width: 1rem;
+        height: 1rem;
+        background-color: var(--color-font);
+        color: var(--color-background);
+        cursor: pointer;
+    }
+
+    .counter{
+        display: flex;
+        gap: 0.4rem;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0.5rem;
+    }
+
+    .counter span{
+        font-size: 0.7rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1400px){
+
+
+    .buttonCounter{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .counter{
+        display: flex;
+        gap: 1rem;
+        margin: 1rem;
+    }
+
+    .counter span{
+        font-size: 1.3rem;
+    }
+
+
+}

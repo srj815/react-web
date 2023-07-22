@@ -13,7 +13,7 @@ const DetailPage = () => {
 return (
     
     <div className='back2'>
-        <div className='productCard'>
+        <div className='productCard productCard-lol'>
             <h2>{productDetail.nombre}</h2>
             <img src={productDetail.imagen} alt="Producto" />
             <div className='productCardDetalles'>

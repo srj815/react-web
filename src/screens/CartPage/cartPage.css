@@ -17,4 +17,32 @@
 
 .back2 h1{
     font-size: 1.3rem;
+    margin-bottom: 9rem;
+}
+
+
+
+@media screen and (min-width: 700px){
+
+.back3{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: var(--background-total);
+}
+
+
+.back2 h1{
+    font-size: 1rem;
+    margin-bottom: 13rem;
+}
+}
+
+@media screen and (min-width: 700px){
+    .back2 h1{
+        font-size: 2rem;
+        margin-bottom: 17rem;
+    }
 }

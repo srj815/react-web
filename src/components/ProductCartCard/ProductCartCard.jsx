@@ -3,7 +3,7 @@ import './productCartCard.css'
 
 const ProductCartCard = ({producto}) => {
   return (
-    <div className='productCard'>
+    <div className='productCard productCartCard-lol'>
         <h2>{producto.nombre}</h2>
         <img src={producto.imagen} alt="Producto" />
         <h3>Precio: {producto.precio}</h3>

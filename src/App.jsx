@@ -26,9 +26,16 @@ function App() {
         <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
 
+     <div className='divPadre'>
+          <span class="flip-square"></span>
+      </div>
+
       <Link className='btn-wsp' to="https://api.whatsapp.com/send?phone=1126300464" target='_black'><i class="bi bi-whatsapp"></i></Link> 
     
       <footer className='footerBar'>
+        <div className='lrpmqlp'>
+        <div className='lrpm'>
+        <div className='lpm'>
         <div className='zeroF'>
           <h2>Categorías</h2>
           <div className='zeroF-nav'>
@@ -44,6 +51,7 @@ function App() {
             <Link to="https://facebook.com" target='_black'><i className="bi bi-facebook"></i></Link>
             <Link to="https://tiktok.com" target='_black'><i className="bi bi-tiktok"></i></Link>
           </div>
+          </div>
         </div>
         <div className='secondF'>
           <h2>Medios de pago</h2>
@@ -56,9 +64,11 @@ function App() {
             <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/rapipago@2x.png" alt="" />
           </div>
         </div>
+        </div>
         <div className='thirdF'>
           <h2>Medios de envío</h2>
           <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/shipping/ar/oca@2x.png" alt="Oca" />
+        </div>
         </div>
         <div className='lastF'>
           <h3>Copyright Fitness San Martin - 2023. Todos los derechos reservados.</h3>

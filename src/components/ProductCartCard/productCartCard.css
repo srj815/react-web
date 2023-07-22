@@ -4,3 +4,16 @@
 .pepito span{
     font-weight: 600;
 }
+
+
+@media screen and (min-width: 700px){
+.productCartCard-lol{
+    height: auto;
+}
+
+.productCartCard-lol h1{
+    font-size: 0.1rem;
+}
+}
+
+
