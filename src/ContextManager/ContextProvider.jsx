@@ -9,7 +9,7 @@ const ContextProvider = ({children}) => {
     const products =[
         {
             nombre: 'Mancuerna',
-            imagen: 'https://drive.google.com/file/d/1cJGPF_fEiwP7ZM-HsAx55jgbtWYYHgJP/view',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/1.png?raw=true',
             precio: 7000,
             id:1,
             stock: 20,
