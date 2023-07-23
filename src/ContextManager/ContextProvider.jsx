@@ -17,7 +17,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Banda Elastica',
-            imagen: '../../public/2.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/2.png?raw=true',
             precio: 1400,
             id:2,
             stock: 15,
@@ -25,7 +25,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Pesa Rusa de Fundicion',
-            imagen: '../../public/3.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/3.png?raw=true',
             precio: 4000,
             id:3,
             stock: 8,
@@ -33,7 +33,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Colchoneta de Alta Densidad',
-            imagen: '../../public/4.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/4.png?raw=true',
             precio: 2000,
             id:4,
             stock: 50,
@@ -41,7 +41,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Disco con Agarre de PVC',
-            imagen: '../../public/5.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/5.png?raw=true',
             precio: 4000,
             id:5,
             stock: 15,
@@ -49,7 +49,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Mancuerna con rosca',
-            imagen: '../../public/6.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/6.png?raw=true',
             precio: 3000,
             id:6,
             stock: 100,
@@ -57,7 +57,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Mancuerna de fundicion',
-            imagen: '../../public/7.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/7.png?raw=true',
             precio: 1000,
             id:7,
             stock: 80,
@@ -65,7 +65,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Disco de fundicion',
-            imagen: '../../public/8.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/8.png?raw=true',
             precio: 2000,
             id:8,
             stock: 200,
@@ -73,7 +73,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Pesa Rusa de PVC',
-            imagen: '../../public/9.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/9.png?raw=true',
             precio: 3000,
             id:9,
             stock: 20,
@@ -81,7 +81,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Barra Dominada de Pared',
-            imagen: '../../public/10.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/10.png?raw=true',
             precio: 10000,
             id:10,
             stock: 8,
@@ -89,7 +89,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Proteina Mass Gainer',
-            imagen: '../../public/11.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/11.png?raw=true',
             precio: 5000,
             id:11,
             stock: 10,
@@ -97,7 +97,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Barra con Disco',
-            imagen: '../../public/12.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/12.png?raw=true',
             precio: 20000,
             id:12,
             stock: 15,
@@ -105,7 +105,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Rueda abdominal',
-            imagen: '../../public/13.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/13.png?raw=true',
             precio: 1600,
             id:13,
             stock: 45,
@@ -113,7 +113,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Aro Hula Hula',
-            imagen: '../../public/14.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/14.png?raw=true',
             precio: 350,
             id:14,
             stock: 300,
@@ -121,7 +121,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Protector Bucal',
-            imagen: '../../public/15.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/15.png?raw=true',
             precio: 600,
             id:15,
             stock: 677,
@@ -129,7 +129,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Pelota de Yoga',
-            imagen: '../../public/16.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/16.png?raw=true',
             precio: 2000,
             id:16,
             stock: 21,
@@ -137,7 +137,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Ladrillo de Yoga',
-            imagen: '../../public/17.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/17.png?raw=true',
             precio: 1000,
             id:17,
             stock: 8,
@@ -145,7 +145,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Guantes de Boxeo',
-            imagen: '../../public/18.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/18.png?raw=true',
             precio: 2500,
             id:18,
             stock: 79,
@@ -153,7 +153,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Soga con Mango de Metal',
-            imagen: '../../public/19.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/19.png?raw=true',
             precio: 1000,
             id:19,
             stock: 32,
@@ -161,7 +161,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Guantes de MMA',
-            imagen: '../../public/20.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/20.png?raw=true',
             precio: 2500,
             id:20,
             stock: 40,
@@ -169,7 +169,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Vendas de Colores',
-            imagen: '../../public/21.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/21.png?raw=true',
             precio: 1700,
             id:21,
             stock: 280,
@@ -177,7 +177,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Medicine Ball',
-            imagen: '../../public/22.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/22.png?raw=true',
             precio: 4500,
             id:22,
             stock: 12,
@@ -185,7 +185,7 @@ const ContextProvider = ({children}) => {
         },
         {
             nombre: 'Vaso Shaker',
-            imagen: '../../public/23.png',
+            imagen: 'https://github.com/srj815/react-web/blob/main/public/23.png?raw=true',
             precio: 800,
             id:23,
             stock: 100,

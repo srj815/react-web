@@ -41,6 +41,11 @@ const ContactPage = () => {
           <input placeholder=" " required type="email" id='email' name='email' onChange={handleChangeRegisterUser} value={formUserData.email}/>
           <label htmlFor="email">Email</label>
         </div>
+        <div className='inputBox'>
+          <input placeholder=" " required type="text" id='asunto' name='asunto' onChange={handleChangeRegisterUser} value={formUserData.asunto}/>
+          <label htmlFor="asunto">Asunto</label>
+        </div>
+        <textarea placeholder='Escriba su mensaje aquí...' required type="mensaje" id='mensaje' name='mensaje' onChange={handleChangeRegisterUser} value={formUserData.mensaje}/>
         {showPersonalData ? <button>Editar</button> : <button type='submit'>Enviar</button>}
       </form>
     </div>

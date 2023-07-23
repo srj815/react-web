@@ -10,7 +10,7 @@ function App() {
     <div>
 
       <nav className='navBar'>
-      <NavLink className='navLink' to='/'><img className='logo' src="../public/logo.png" alt="Fitness San Martin" /></NavLink>
+      <NavLink className='navLink' to='/'><img className='logo' src="https://github.com/srj815/react-web/blob/main/public/logo.png?raw=true" alt="Fitness San Martin" /></NavLink>
         <div className='boxLink'>
           <NavLink className='navLink' to='/'><i class="bi bi-house-door"></i> <span>Home</span></NavLink>
           <NavLink className='navLink' to='/cart'><i class="bi bi-cart"></i> <span>Carrito</span></NavLink>

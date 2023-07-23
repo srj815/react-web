@@ -15,6 +15,12 @@
     color: var(--color-font);
 }
 
+.formularioUsuario textarea{
+    width: 100%;
+    height: 6rem;
+    padding: 5px;
+}
+
 .inputBox{
     border-bottom: 1px solid var(--color-font);
     position: relative;
@@ -91,6 +97,10 @@ input:not(:placeholder-shown) ~ label{
 
     .formularioUsuario button{
         font-size: 0.5rem;
+    }
+
+    .formularioUsuario textarea{
+        font-size: 0.6rem;
     }
 
 }
