@@ -19,7 +19,7 @@ const HomePage = () => {
         producto => producto.nombre.toLowerCase().includes(searchProduct.toLowerCase()) && producto.precio >= min && producto.precio <= max
       ))
     }, [searchProduct, max, min])
-    
+
   return (
     
     <div className='back'>
@@ -36,8 +36,8 @@ const HomePage = () => {
 
           <h2>Precio</h2>
           <div className='inputFilters'>
-            <input className='inputPrecio' type='text' value={min} onChange={(e) => setMin(Number(e.target.value))}/>
-            <input className='inputPrecio' type='text' value={max} onChange={(e) => setMax(Number(e.target.value))}/>
+            <input className='inputPrecio' type='number' value={min} onChange={(e) => setMin(Number(e.target.value))}/>
+            <input className='inputPrecio' type='number' value={max} onChange={(e) => setMax(Number(e.target.value))}/>
           </div>
         </div>
         <h1>Nuestros Productos</h1>

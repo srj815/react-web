@@ -37,6 +37,12 @@
     font-size: 0.7rem;
 }
 
+.inputPrecio::-webkit-inner-spin-button,
+.inputPrecio::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .inputFilters{
     display: flex;
     gap: 1rem;

@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './app.css'
 import { CartPage, DetailPage, HomePage, ContactPage} from './screens'
 import { Link, NavLink, Route, Routes } from 'react-router-dom'
 
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
 
   return (
     <div>
@@ -26,9 +34,11 @@ function App() {
         <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
 
-      <div className='divPadre'>
-          <span class="flip-square"></span>
-      </div>
+      {loading && (
+        <div className='divPadre'>
+          <span className='flip-square'></span>
+        </div>
+      )}
 
       <Link className='btn-wsp' to="https://api.whatsapp.com/send?phone=1126300464" target='_black'><i class="bi bi-whatsapp"></i></Link> 
     
